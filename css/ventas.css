@@ -1,0 +1,48 @@
+body {
+  background: #1F1C2C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#barra{
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7);
+}
+
+  #formulario {
+    margin-top: 100px;
+  }
+
+  #caja{
+    margin-top: 50px;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    overflow: auto;
+    }
+
+
+
+#pie{
+  margin-top: 150px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position:
+
+}
+
+
+.purple-gradient: active {
+  background: #C02425 !important;
+background: -webkit-linear-gradient(to bottom, #F0CB35, #C02425) !important;
+background: linear-gradient(to bottom, #F0CB35, #C02425) !important;
+
+}
+
+#corte{
+  clear:both;
+}

@@ -1,0 +1,45 @@
+body {
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+#avatar {
+    width: 155px;
+    height: 155px;
+    bottom: -50px;
+    z-index: 2;
+    position: relative;
+    left: calc(45% - 50px);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+#avatar2 {
+    width: 155px;
+    height: 155px;
+    bottom: -50px;
+    z-index: 2;
+    position: relative;
+    left: calc(44% - 50px);
+    border-radius: 50%;
+}
+#avatar3 {
+    width: 155px;
+    height: 155px;
+    bottom: -50px;
+    z-index: 2;
+    position: relative;
+    left: calc(44% - 50px);
+    border-radius: 50%;
+}
+#avatar4 {
+    width: 155px;
+    height: 155px;
+    bottom: -50px;
+    z-index: 2;
+    position: relative;
+    left: calc(44% - 50px);
+    border-radius: 50%;
+}
