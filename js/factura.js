@@ -21,22 +21,25 @@ formulario.addEventListener('submit', function(e) {
       console.log(data)
       if (data === 'error1') {
         alerta.innerHTML =
-          `
-    <div class="alert alert-danger text-center" role="alert">
-      Ya deja de trastear! si funciona ombe!
-  </div>
-    `
+            `
+          <div class="alert alert-danger text-center" role="alert">
+            <i class="fas fa-exclamation-triangle cc_pointer"></i>
+            Factura vacia
+            </div>
+            `
       } else if (data === 'error2') {
         alerta.innerHTML =
-          `
-    <div class="alert alert-success text-center" role="alert">
-        No puede imprimir una factura en blanco
-   </div>
-  `
-      } else if (data === 'error3') {
+            `
+            <div class="alert alert-warning text-center" role="alert">
+              <i class="fas fa-exclamation-triangle cc_pointer"></i>
+            No puede imprimir una factura en blanco
+            </div>
+            `
+          } else if (data === 'error3') {
         alerta.innerHTML =
           `
-  <div class="alert alert-success text-center" role="alert">
+  <div class="alert alert-warning text-center" role="alert">
+  <i class="fas fa-exclamation cc_pointer"></i>
       Debe elegir un metodo de pago
  </div>
 `
@@ -45,10 +48,11 @@ formulario.addEventListener('submit', function(e) {
         $("#modalPush").modal('show');
         alerta.innerHTML =
           `
-    <div class="alert alert-success text-center" role="alert">
-        ${data}
-   </div>
-  `
+          <div class="alert alert-success text-center" role="alert">
+            <i class="fas fa-check cc_pointer"></i>
+            ${data}
+          </div>
+          `
       }
 
     })

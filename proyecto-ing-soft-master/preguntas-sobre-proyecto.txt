@@ -1,0 +1,58 @@
+1- cargar las sucursales mediante ajax
+2- preguntar si el password lo genero y se lo doy al empleado para que lo cambie o que lo introduzca el empleado
+3- las validaciones esta medias correctas pero los border rojos no salen
+
+
+LLENAR TABLAS
+TBL_GENEROS
+TBL_ESTADO_CIVIL
+TBL_SUCURSALES
+TBL_ESTATUS_EMPLEADO
+TBL_CARGOS_EMPLEADO
+
+
+// codigo no funcional
+
+<script src="assets/js/scrollreveal.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('header', {
+            duration: 2000,
+            origin: 'bottom'
+            });
+
+            sr.reveal('.efecto2', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+            });
+
+            sr.reveal('.efecto3', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+            });
+
+            sr.reveal('.header-btn', {
+            duration: 2000,
+            delay: 1000, 
+            origin: 'bottom'
+            });
+
+            sr.reveal('#testimonial div', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+                });
+            });
+            });
+        </script>
